@@ -1,0 +1,104 @@
+body {
+	background-color: #dfb5f2;
+	font-family: sans-serif;
+}
+
+#logo {
+	margin-left: 40%;
+}
+
+img {
+	margin-top: 30px;
+}
+
+#servicios {
+	margin-left: 15%;
+
+}
+
+.menu {
+  background-color: #bb69cc;
+  overflow: hidden;
+  margin-top: 30px;
+  padding: 3px;
+}
+#marcas {
+  margin-left: 8%;
+}
+
+#contacto {
+	background-color: #e7e1ea;
+	width: 1330px;
+	height: 200px; 
+
+}
+#contacto h4 {
+	color: purple;
+}
+#contacto div p {
+  color: purple;
+  font-size: 12px;
+  width: 200px;
+}
+
+#contacto p {
+	color: white;
+	font-size: 17px;
+	width: 400px;
+	height: 200px;
+	display: inline;
+}
+#redes_sociales {
+  padding: 5px;
+}
+#redes_sociales p {
+  margin-left: 2px;
+}
+#redes_sociales a {
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #c172e5;
+  color: white;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+ -webkit-animation-name: pulse;
+ animation-name: pulse;
+ animation-duration: 3s;
+}
